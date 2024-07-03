@@ -1,6 +1,4 @@
-Sure, here's how you can structure your README.md file for your MongoDB Connector npm package in proper markdown format:
 
-```markdown
 # MongoDB Connector
 
 **MongoDB Connector** is a lightweight npm package designed to simplify the process of connecting to MongoDB databases in Node.js applications. It provides a straightforward function to establish a MongoDB connection using just the MongoDB URI.
