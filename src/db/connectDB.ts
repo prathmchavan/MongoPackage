@@ -5,7 +5,7 @@ import mongoose from 'mongoose';
  * @param {string} uri - The MongoDB connection string.
  * @returns {Promise<void>}
  */
-const connectDB = async (uri: string): Promise<void> => {
+export const connectDB = async (uri: string): Promise<void> => {
   try {
     await mongoose.connect(uri);
     console.log('MongoDB connected successfully');
@@ -15,4 +15,3 @@ const connectDB = async (uri: string): Promise<void> => {
   }
 };
 
-export default connectDB;
