@@ -1,1 +1,1 @@
-declare let no: number;
+export * from './db/connectDB';
